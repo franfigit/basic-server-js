@@ -1,0 +1,61 @@
+body{
+    background-color: beige;
+}
+.container{
+    display: block;
+}
+
+.menu{
+    display: flex;
+    gap: 1rem;
+    height: 100%;
+    align-items: stretch;
+}
+
+.menu-item{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.menu-item:not(:first-child){ /* aplica el borde menos al primer boton*/
+    border-left: 2px solid black;
+}
+
+
+.homepageimg {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.container-up{
+    background-color: orange;
+    min-height: 50px; /* Ajusta el alto según prefieras */
+    display: flex;
+    align-items: stretch;
+}
+
+.container-down{
+    background-color: wheat;
+    width: 100%;
+    padding: 1rem;
+}
+
+.form-control{
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.error{
+    color: red;
+    display: none;
+}
+
+.show-error{
+    display: flex;
+}
